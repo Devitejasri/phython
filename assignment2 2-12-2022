@@ -1,0 +1,48 @@
+def vote():
+    if v>=18:
+     print('Yes')
+    else:
+     print('No')
+print('OUYPUT 1\n')
+v=int(input('Enter the age:'))
+vote()
+
+
+def vote():
+    if v>=18:
+        return'Yes'
+    else:
+        return'No'
+print('\nOUTPUT 2\n')    
+v=int(input('Enter the age:'))
+print(vote())
+
+
+def vote():
+    if v>=18:
+        return True
+    else:
+        return False
+print('\nOUTPUT 3\n')
+v=int(input('Enter the age:'))
+if(vote()):
+    print('Yes')
+else:
+    print('No')
+
+
+
+OUTPUT:
+Eligible for vot by using functions
+Enter the age:18
+Yes
+
+OUTPUT 2:
+Eligible for vot by using functions
+Enter the age:15
+No
+
+OUTPUT 3:
+Eligible for vot by using functions
+Enter the age:20
+Yes
