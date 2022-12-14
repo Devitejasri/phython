@@ -1,0 +1,21 @@
+n=int(input())
+list=[]
+for i in range(n):
+    dist=input('Enter the districts in ap:')
+    list.append(dist)
+list.sort()
+print(list)
+Output: 
+
+kakinada
+Vskp
+Srikakulam
+Amalapuram
+
+
+
+Amalapuram
+Vskp
+Kakinada
+Srikakulam
+
